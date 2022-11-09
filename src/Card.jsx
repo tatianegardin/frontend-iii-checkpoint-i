@@ -3,7 +3,7 @@
 export function Card (props) {
   return (
     <div className = "card" style ={{backgroundColor:`${props.card.color}`}}>
-        <h2>{props.card.name}</h2>
+        <h2 style ={{backgroundColor:`${props.card.color}`}}>{props.card.name}</h2>
     </div>
   )
 }
