@@ -36,7 +36,7 @@ function App() {
     let name = inputName.trim()
     let isValid = false
 
-    if(color.includes("#") && color.length > 5 && name.length > 2){
+    if(color[0] === ("#") && color.length > 5 && name.length > 2){
       isValid = true
     }
 

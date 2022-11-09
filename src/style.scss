@@ -1,4 +1,6 @@
-
+*{
+    font-family: Tahoma, sans-serif;
+}
 .section-cards{
     margin: 0 auto;
     width: 80vw;
@@ -18,9 +20,11 @@
         padding: 1rem;
         border-radius: 1rem;
         border: rgba(0, 0, 0, 0.214) solid 5px;
-        h2{
-            
-            text-align: end;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        h1, p{
+            margin: 1px;
         }
     }
 }
