@@ -43,8 +43,6 @@ function App() {
     return isValid
   }
 
-
-
   return (
     <main className="App">
       <div className="form" >
