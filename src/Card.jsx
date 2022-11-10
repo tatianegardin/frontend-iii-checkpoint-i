@@ -4,7 +4,7 @@ export function Card (props) {
   return (
     <div className = "card" style ={{backgroundColor:`${props.card.color}`}}>
       <div className= "descritpion-card">
-        <p>{props.card.name}</p>
+        <p style ={{backgroundColor:`${props.card.color}`}}>{props.card.name}</p>
         <h1 style ={{backgroundColor:`${props.card.color}`}}>{props.card.color}</h1>
       </div>
     </div>
